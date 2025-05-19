@@ -106,7 +106,7 @@ start-all.sh
 jps
 
 # Step 18: Create HDFS directories for testing
-hdfs dfs -mkdir /test
+hdfs dfs -mkdir /testing
 hdfs dfs -mkdir /logs
 hdfs dfs -put /var/log/* /logs/
 hdfs dfs -ls /
